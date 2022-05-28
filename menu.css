@@ -1,0 +1,47 @@
+.img{
+    height: 100;
+    width: 100;
+    size: 100;
+}
+#mySidenav a 
+{
+    position:fixed;
+    left: -107px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 180px;
+    font-size: 15px;
+    color: white;
+    font-family: "Lucida Handwriting";
+    text-decoration:none;
+}
+#mySidenav a:hover
+{
+    left: 0;
+    z-index: 1;
+}
+#home
+{
+    top: 200px;
+    background-color: #2196F3;
+}
+#menu
+{
+    top: 260px;
+    background-color: #f44336;
+}  
+#contact
+{
+    top: 320px;
+    background-color: #555
+}
+#about
+{
+    top: 380px;
+    background-color: #04AA6D;
+}
+#checkout
+{
+    top:440px;
+    background-color: rgb(98, 9, 139);
+}

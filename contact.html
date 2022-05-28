@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        project
+    </title>
+    <link href="home.css" type="text/css" rel="stylesheet" />
+    <script src="contact.js">
+    </script>
+</head>
+
+<body style="background-color: rgb(184, 155, 145);">
+    <div class="name">
+        <h1>Cakehut</h1>
+    </div>
+    <img src="foot.png" style=" top:140%;left:0px; position:absolute;">
+    <img src="logo.jpg" style=" top:12px;left:20px; position:absolute;">
+    <div id="mySidenav" class="sidenav">
+        <a href="main.html" id="home">HOME</a>
+        <a href="menu.html" id="menu">MENU</a>
+        <a href="contact.html" id="contact">CONTACT</a>
+        <a href="about.html" id="about">ABOUT</a>
+        <a href="checkout.html" id="checkout">CHECKOUT</a>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13290.87172109156!2d73.12315824999999!3d33.612622449999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1640271051118!5m2!1sen!2s"
+        width="450" height="450" style="border:0; top:40%; left:200px;position:relative;" allowfullscreen=""
+        loading="lazy"></iframe>
+    <a href="">
+        <img src="fb.png" style=" top:185%;left:150px; position:absolute;">
+        <img src="insta.png" style=" top:185%;left:250px; position:absolute;">
+        <img src="twitter.png" style=" top:185%;left:350px; position:absolute;">
+        <img src="w.png" style=" top:185%;left:450px; position:absolute;">
+        <img src="u.png" style=" top:185%;left:550px; position:absolute;">
+    </a>
+    <p style="
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 185%;
+    font-family:Lucida Handwriting;
+    font-size: 20px;
+    left:90%;
+    z-index: 0;">| Follow Us</p>
+    <h2 style="text-align:justify;right:20px;top: 140px;left:50%;position:absolute;">Contact Us</h2>
+    <form onsubmit="return validateForm()" name="myForm"
+        style="border:10px solid rgb(68, 9, 9);; background-color: rgb(133, 127, 127);padding:40px;top: 200px;left:50%;position:absolute; font-size: 20px;width:40%;height:80%;">
+        <label for="fname">First name:</label>
+        <input style="left:400px; width:90%; height:25px;" type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input style=" width:90%; height:25px;" type="text" id="lname" name="lname"><br>
+        <label for="email">Your Email:</label><br>
+        <input style=" width:40%; height:25px;" type="text" id="email" name="email"><br>
+        <label for="ContactNo">Contact No:</label><br>
+        <input style=" width:40%; height:25px;" type="text" id="contactno" name="contactno"><br>
+        <label for="message">Message:</label><br>
+        <textarea style=" width:90%; height:200px;" type="text" id="message" name="message"></textarea><br>
+        <input
+            style="left:48%;position:relative;top:15px;padding: 16px 32px;text-align: center;display: inline-block;font-size: 16px;cursor: pointer;background-color:rgb(184, 155, 145);color: black; border: 2px solid rgb(68, 9, 9);"
+            type="submit" value="Submit">
+    </form>
+</body>
+</head>
